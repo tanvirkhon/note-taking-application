@@ -1,14 +1,23 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A note taking web app, that allows you to write, save and delete notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvirkhon/note-taking-application.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tanvirkhon/note-taking-application/issues"
+  },
+  "homepage": "https://github.com/tanvirkhon/note-taking-application#readme"
 }
