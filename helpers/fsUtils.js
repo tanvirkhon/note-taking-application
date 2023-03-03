@@ -40,4 +40,5 @@ const deleteNote = (id) => {
   });
 }
 
+// Export modules so that they can be imported in notes.js
 module.exports = { readFromFile, writeToFile, readAndAppend, deleteNote };

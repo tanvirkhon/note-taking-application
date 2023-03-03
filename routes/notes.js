@@ -49,4 +49,5 @@ note.delete("/:id", (req, res) => {
   deleteNote(id);
 });
 
+// Export the note so that it can be imported in index.js
 module.exports = note;

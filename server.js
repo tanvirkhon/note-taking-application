@@ -1,7 +1,9 @@
+// Set required environment variables
 const express = require("express");
 const path = require("path");
 const api = require("./routes/index.js");
 
+// Set port
 const PORT = 3002;
 
 const app = express();
@@ -23,6 +25,7 @@ app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 
+// app to listen on port
 app.listen(PORT, () => {
   console.log(`App listening at http://localhost:${PORT} 🚀`);
 });
